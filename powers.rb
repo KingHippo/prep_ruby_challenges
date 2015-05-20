@@ -14,4 +14,4 @@ def power(base,exponent)
 
 end
 
-power(3,0)
+power(3,4)
