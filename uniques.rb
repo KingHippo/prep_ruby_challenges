@@ -1,9 +1,9 @@
 def uniques(items)
     array = []
-    items.each do |arr|
-        if array.include?(arr)
+    items.each do |item|
+        if array.include?(item)
         else
-            array << arr
+            array << item
         end
     end
     puts array.to_s
