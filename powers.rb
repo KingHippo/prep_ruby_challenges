@@ -6,12 +6,10 @@ def power(base,exponent)
     end
 
     while count <= exponent
-        total = total * base
+        total *= base
         count += 1
-        puts total.to_s
     end
-    return total
-
+    puts total.to_s
 end
 
 power(3,4)
